@@ -1,0 +1,113 @@
+@import "variables";
+
+html{
+  body{
+    div{
+      //border: 1px solid black;
+      color: white;
+      font-family: Gothambook, Gotham;
+      font-size: 24px;
+    }
+    div#div-logo {
+      position: relative;
+      display: inline-block;
+      width: 23%;
+      height: auto;
+      text-align: right;
+      vertical-align: middle;
+      margin: auto;
+      img#img-logo {
+        position: relative;
+        z-index: 2;
+        width: 10em;
+        height: auto;
+      }
+    }
+    div#div3{
+      display: inline-block;
+      width: 70%;
+      align: top;
+      height: auto;
+      vertical-align: middle;
+      div#div1 {
+        position: relative;
+        display: inline-block;
+        width: 60%;
+        height: auto;
+        font-size: 1.5em;
+        vertical-align: middle;
+        nav {
+          width: 100%;
+          display: inline-block;
+          text-align: center;
+          padding: 2% 0%;
+          a#a1 {
+            display: inline-block;
+            width: 25%;
+            height: auto;
+            text-align: center;
+            vertical-align: middle;
+          }
+          a#a2 {
+            display: inline-block;
+            width: 25%;
+            height: auto;
+            text-align: center;
+            vertical-align: middle;
+          }
+          a#a3 {
+            display: inline-block;
+            width: 25%;
+            height: auto;
+            text-align: center;
+            vertical-align: middle;
+          }
+          a:link, a:visited {
+            color: white;
+            text-decoration: none;
+          }
+          a:hover, a:active {
+            color: red;
+            text-decoration: none;
+          }
+        }
+      }
+      div#div2 {
+        text-align: center;
+        position: relative;
+        width: 30%;
+        height: auto;
+        display: inline-block;
+        vertical-align: middle;
+        input#search-bar {
+          position: relative;
+          width: 80%;
+          height: 50px;
+          font-family: Gothambook, Gotham;
+          background-color: $color-scheme;
+          font-size: 30px;
+          border: 4px solid white;
+          padding-left: 15%;
+          z-index: 1;
+          vertical-align: middle;
+          color: white;
+          input[type="text"]:focus {
+            display: inline-flex;
+            width: 50%;
+            color: white;
+          }
+        }
+        img#search {
+          position: absolute;
+          top: 11px;
+          left: 4%;
+          width: 35px;
+          z-index: 2;
+        }
+        ::-webkit-input-placeholder{
+          color: white;
+        }
+      }
+    }
+  }
+}

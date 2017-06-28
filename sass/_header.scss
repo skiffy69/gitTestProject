@@ -1,0 +1,13 @@
+@import "variables";
+html{
+  body{
+    header{
+      background-color: $color-scheme;
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      height: auto;
+      padding: 1% 0%;
+    }
+  }
+}
