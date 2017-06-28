@@ -1,0 +1,2094 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../sass/_div.scss */
+html body div {
+  color: white;
+  font-family: Gothambook, Gotham;
+  font-size: 24px;
+}
+/* line 11, ../sass/_div.scss */
+html body div#div-logo {
+  position: relative;
+  display: inline-block;
+  width: 23%;
+  height: auto;
+  text-align: right;
+  vertical-align: middle;
+  margin: auto;
+}
+/* line 19, ../sass/_div.scss */
+html body div#div-logo img#img-logo {
+  position: relative;
+  z-index: 2;
+  width: 10em;
+  height: auto;
+}
+/* line 26, ../sass/_div.scss */
+html body div#div3 {
+  display: inline-block;
+  width: 70%;
+  align: top;
+  height: auto;
+  vertical-align: middle;
+}
+/* line 32, ../sass/_div.scss */
+html body div#div3 div#div1 {
+  position: relative;
+  display: inline-block;
+  width: 60%;
+  height: auto;
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+/* line 39, ../sass/_div.scss */
+html body div#div3 div#div1 nav {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 2% 0%;
+}
+/* line 44, ../sass/_div.scss */
+html body div#div3 div#div1 nav a#a1 {
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 51, ../sass/_div.scss */
+html body div#div3 div#div1 nav a#a2 {
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 58, ../sass/_div.scss */
+html body div#div3 div#div1 nav a#a3 {
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 65, ../sass/_div.scss */
+html body div#div3 div#div1 nav a:link, html body div#div3 div#div1 nav a:visited {
+  color: white;
+  text-decoration: none;
+}
+/* line 69, ../sass/_div.scss */
+html body div#div3 div#div1 nav a:hover, html body div#div3 div#div1 nav a:active {
+  color: red;
+  text-decoration: none;
+}
+/* line 75, ../sass/_div.scss */
+html body div#div3 div#div2 {
+  text-align: center;
+  position: relative;
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 82, ../sass/_div.scss */
+html body div#div3 div#div2 input#search-bar {
+  position: relative;
+  width: 80%;
+  height: 50px;
+  font-family: Gothambook, Gotham;
+  background-color: #1f3e66;
+  font-size: 30px;
+  border: 4px solid white;
+  padding-left: 15%;
+  z-index: 1;
+  vertical-align: middle;
+  color: white;
+}
+/* line 94, ../sass/_div.scss */
+html body div#div3 div#div2 input#search-bar input[type="text"]:focus {
+  display: inline-flex;
+  width: 50%;
+  color: white;
+}
+/* line 100, ../sass/_div.scss */
+html body div#div3 div#div2 img#search {
+  position: absolute;
+  top: 11px;
+  left: 4%;
+  width: 35px;
+  z-index: 2;
+}
+/* line 107, ../sass/_div.scss */
+html body div#div3 div#div2 ::-webkit-input-placeholder {
+  color: white;
+}
+
+/* line 4, ../sass/_header.scss */
+html body header {
+  background-color: #1f3e66;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  padding: 1% 0%;
+}
+
+/*
+html{
+  body{
+    section{
+      width: 100%;
+    }
+    section#section-top{
+      background-image: url("skyscraper.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: auto;
+      display: inline-block;
+      align: top;
+      clear: both;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.1);
+      div#div-top {
+        //background-color: rgba(0, 0, 0, 0.1);
+        div#text-top {
+          position: relative;
+          width: 60%;
+          float: left;
+          color: $color-scheme;
+          font-size: 2rem;
+          height: auto;
+          display: inline-block;
+          div#text1 {
+            position: relative;
+            width: auto;
+            height: auto;
+            padding: 7% 0% 0% 27%;
+            p#p1 {
+              color: $color-scheme;
+              font-family: Myriad Pro;
+              font-size: 3.8rem;
+              line-height: 120%;
+            }
+          }
+          div#text2 {
+            position: relative;
+            position: relative;
+            width: auto;
+            height: auto;
+            padding: 0.5% 0% 0% 27%;
+            p#p2 {
+              color: $color-scheme;
+              font-family: Gothambook, Gotham;
+              font-size: 3rem;
+              line-height: 120%;
+            }
+          }
+          div#button1 {
+            position: relative;
+            width: auto;
+            height: auto;
+            padding: 4% 0% 10% 27%;
+            button#btn-submit {
+              left: 10%;
+              background-color: rgb(86, 187, 66);
+              color: white;
+              font-family: Gothambook, Gotham;
+              font-size: 150%;
+              padding: 15px 45px;
+              border: none;
+              border-radius: 10px;
+              font-weight: bold;
+            }
+          }
+        }
+        div#top-right {
+          width: 39%;
+          height: auto;
+          position: relative;
+          float: right;
+          padding: 5% 0% 8% 0%;
+          img#img-device {
+            margin-left: -80px;
+            display: inline-block;
+            width: 80%;
+            height: auto;
+          }
+        }
+      }
+    }
+    section#section-mid{
+      position: relative;
+      background-color: rgb(228,228,228);
+      height: auto;
+      display: inline-block;
+      padding: 2% 0%;
+      margin: auto;
+      div#div-mid1 {
+        display: inline-block;
+        width: 32%;
+        vertical-align: top;
+        div#div-sec-left {
+          padding-left: 8%;
+          display: inline-block;
+          img#img-wifi {
+            width: 100px;
+            height: auto;
+          }
+          div#div-left-text {
+            padding: 1% 0%;
+            vertical-align: top;
+            display: inline-block;
+            width: 80%;
+            color: $color-scheme;
+            font-size: 1.3em;
+            text-align: left;
+          }
+        }
+      }
+      div#div-mid2 {
+        display: inline-block;
+        width: 32%;
+        vertical-align: top;
+        div#div-sec-center {
+          padding-left: 8%;
+          display: inline-block;
+          img#img-connect {
+            width: 100px;
+            height: auto;
+          }
+          div#div-center-text {
+            padding: 1% 0%;
+            vertical-align: top;
+            display: inline-block;
+            width: 80%;
+            color: $color-scheme;
+            font-size: 1.3em;
+            text-align: left;
+          }
+        }
+      }
+      div#div-mid3 {
+        display: inline-block;
+        width: 32%;
+        vertical-align: top;
+        div#div-sec-right {
+          padding-left: 8%;
+          display: inline-block;
+          img#img-message {
+            width: 100px;
+            height: auto;
+          }
+        }
+        div#div-right-text {
+          padding: 1% 0%;
+          vertical-align: top;
+          display: inline-block;
+          width: 80%;
+          color: $color-scheme;
+          font-size: 1.3em;
+          text-align: left;
+        }
+      }
+    }
+    section#section-mid2{
+      display: inline-block;
+      background-color: white;
+      position: relative;
+      float: left;
+      width: 100%;
+      height: auto;
+      vertical-align: middle;
+      div#major2 {
+        width: 100%;
+        div#div-sec-mid2-left {
+          display: inline-block;
+          position: relative;
+          float: left;
+          width: 30%;
+          height: auto;
+          padding: 1% 0%;
+          text-align: right;
+          vertical-align: middle;
+          img#iphone7 {
+            display: inline-block;
+            position: relative;
+            vertical-align: middle;
+            padding-right: 2%;
+            max-width: 70%;
+            height: auto;
+            margin: auto;
+          }
+        }
+        div#div-sec-mid2-right {
+          float: right;
+          width: 69%;
+          height: auto;
+          position: relative;
+          vertical-align: middle;
+          div#b3 {
+            height: auto;
+            position: relative;
+            div#b1 {
+              padding-top: 3%;
+              vertical-align: middle;
+              div#b11 {
+                vertical-align: middle;
+                width: 75%;
+                padding: 1% 0%;
+                p#p3 {
+                  vertical-align: middle;
+                  font-family: Myriad Pro;
+                  font-size: 2.3em;
+                  color: $color-scheme;
+                }
+              }
+              div#b12 {
+                vertical-align: middle;
+                width: 75%;
+                padding: 1% 0%;
+                p#p4 {
+                  vertical-align: middle;
+                  font-family: Gothambook, Gotham;
+                  font-size: 1.3em;
+                  color: $color-scheme;
+                  line-height: 120%;
+                }
+              }
+            }
+            div#b2 {
+              vertical-align: middle;
+              padding: 2% 0%;
+              width: 75%;
+              button#btn-submit2 {
+                display: inline-block;
+                background-color: rgb(86, 187, 66);
+                color: white;
+                font-family: Gothambook, Gotham;
+                font-size: 130%;
+                padding: 18px 32px;
+                border: none;
+                border-radius: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+    section#section-bottom {
+      padding-top: 20px;
+      display: inline-block;
+      clear: both;
+      background-color: white;
+      align: top;
+      position: relative;
+      height: auto;
+      div#bottom {
+        height: auto;
+        div#div-sec-bot-left {
+          position: relative;
+          display: inline-block;
+          width: 50%;
+          height: auto;
+          float: left;
+          header#header-mid {
+            clear: both;
+            display: inline-block;
+            position: relative;
+            background-color: white;
+            font-family: Myriad Pro;
+            padding-left: 5%;
+            padding-bottom: 2%;
+            text-align: center;
+            color: $color-scheme;
+            font-size: 220%;
+            width: 80%;
+            height: auto;
+            vertical-align: middle;
+          }
+          div#phone {
+            float: left;
+            position: relative;
+            width: 37%;
+            height: auto;
+            display: inline-block;
+            margin: auto;
+            vertical-align: middle;
+            text-align: right;
+            img#img-phone {
+              display: inline-block;
+              position: relative;
+              vertical-align: middle;
+              width: 55%;
+              height: auto;
+              margin: auto;
+            }
+          }
+          div#right-phone {
+            float: right;
+            position: relative;
+            width: 60%;
+            height: auto;
+            vertical-align: middle;
+            padding:1% 0%;
+            div#a {
+              display: inline-block;
+              position: relative;
+              height: auto;
+              width: 100%;
+              padding: 2% 0% 3% 0%;
+              vertical-align: middle;
+              div#wifi2 {
+                dislay: inline-block;
+                position: relative;
+                height: auto;
+                width: 100%;
+                vertical-align: middle;
+                img#img-wifi2 {
+                  dislay: inline-block;
+                  position: relative;
+                  width: 6rem;
+                  z-index: 2;
+                  vertical-align: middle;
+                }
+              }
+              div#div-bot-left-text {
+                padding: 0% 1% 0% 0%;
+                width: 70%;
+                vertical-align: middle;
+                p#pp1 {
+                  vertical-align: middle;
+                  width: 60%;
+                  padding: 2% 0%;
+                  position: absolute;
+                  top: 27px;
+                  left: 3%;
+                  padding-left: 90px;
+                  display: inline-block;
+                  background-color: rgb(228, 228, 228);
+                  font-family: Gothambook, Gotham;
+                  color: $color-scheme;
+                  font-size: 95%;
+                  z-index: 1;
+                }
+              }
+            }
+            div#b {
+              display: inline-block;
+              position: relative;
+              height: auto;
+              width: 100%;
+              padding: 0% 0% 3% 0%;
+              vertical-align: middle;
+              div#connect2 {
+                dislay: inline-block;
+                position: relative;
+                height: auto;
+                width: 100%;
+                vertical-align: middle;
+                img#img-connect2 {
+                  dislay: inline-block;
+                  position: relative;
+                  width: 6rem;
+                  z-index: 2;
+                  vertical-align: middle;
+                }
+              }
+              div#div-bot-center-text {
+                padding: 0% 1% 0% 0%;
+                width: 70%;
+                vertical-align: middle;
+                p#pp2 {
+                  vertical-align: middle;
+                  width: 60%;
+                  padding: 2% 0%;
+                  position: absolute;
+                  top: 18px;
+                  left: 3%;
+                  padding-left: 90px;
+                  display: inline-block;
+                  background-color: rgb(228, 228, 228);
+                  font-family: Gothambook, Gotham;
+                  color: $color-scheme;
+                  font-size: 95%;
+                  z-index: 1;
+                }
+              }
+            }
+            div#c {
+              display: inline-block;
+              position: relative;
+              height: auto;
+              width: 100%;
+              vertical-align: middle;
+              div#message2 {
+                dislay: inline-block;
+                position: relative;
+                height: auto;
+                width: 20%;
+                vertical-align: middle;
+                img#img-message2 {
+                  dislay: inline-block;
+                  position: relative;
+                  width: 4em;
+                  z-index: 2;
+                  vertical-align: middle;
+                }
+              }
+              div#div-bot-right-text {
+                padding: 0% 1% 0% 0%;
+                width: 80%;
+                vertical-align: middle;
+                display: inline-block;
+                p#pp3 {
+                  vertical-align: middle;
+                  display: inline-block;
+                  width: 60%;
+                  padding: 2% 0%;
+                  position: absolute;
+                  top: 18px;
+                  left: 3%;
+                  padding-left: 90px;
+                  background-color: rgb(228, 228, 228);
+                  font-family: Gothambook, Gotham;
+                  color: $color-scheme;
+                  font-size: 95%;
+                  z-index: 1;
+                  vertical-align: middle;
+                }
+              }
+            }
+          }
+        }
+        div#div-sec-bot-right {
+          float: right;
+          display: inline-block;
+          width: 40%;
+          position: relative;
+          height: auto;
+          vertical-align: middle;
+          button.btn-tab {
+            vertical-align: middle;
+            font-size: 100%;
+            font-family: Gothambook, Gotham;
+            color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+          }
+          button#btn-tab2 {
+            vertical-align: middle;
+            background-color: $color-scheme;
+            border-top-right-radius: 10px;
+            width: 50%;
+            height: auto;
+          }
+          button#btn-tab1 {
+            vertical-align: middle;
+            background-color: rgb(248, 175, 70);
+            width: 50%;
+            height: auto;
+          }
+          div.tabs {
+            overflow: hidden;
+            background-color: $color-scheme;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            width: 80%;
+          }
+          div.tabs button {
+            vertical-align: middle;
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 25px 50px;
+            transition: 0.3s;
+          }
+          div.tabs button.active {
+            vertical-align: middle;
+            background-color: red;
+          }
+          div#tab1 {
+            display: inline-block;
+            background-color: $color-scheme;
+            width: 80%;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            font-family: Gothambook, Gotham;
+            vertical-align: middle;
+            div#txt1 {
+              height: 80px;
+              vertical-align: middle;
+              text-align: center;
+              padding: 3% 0%;
+              input#txtbox1 {
+                background-color: rgb(229, 229, 229);
+                width: 70%;
+                height: 40%;
+                color: $color-scheme;
+                border: 1px solid $color-scheme;
+                border-radius: 10px;
+                font-size: 120%;
+                padding: 3%;
+                font-family: Gothambook, Gotham;
+                vertical-align: middle;
+              }
+              ::-webkit-input-placeholder{
+                color: $color-scheme;
+              }
+            }
+            div#txt2 {
+              height: 80px;
+              vertical-align: middle;
+              text-align: center;
+              padding: 3% 0%;
+              input#txtbox2 {
+                background-color: rgb(229, 229, 229);
+                width: 70%;
+                height: 40%;
+                color: $color-scheme;
+                border: 1px solid $color-scheme;
+                border-radius: 10px;
+                font-size: 120%;
+                padding: 3%;
+                font-family: Gothambook, Gotham;
+                vertical-align: middle;
+              }
+              ::-webkit-input-placeholder{
+                color: $color-scheme;
+              }
+            }
+            div#btn3 {
+              height: auto;
+              vertical-align: middle;
+              padding: 3% 0%;
+              text-align: left;
+              padding-left: 45%;
+              padding-bottom: 7%;
+              button#btn-submit3 {
+                background-color: rgb(86, 187, 66);
+                color: white;
+                font-family: Gothambook, Gotham;
+                font-size: 130%;
+                font-weight: bold;
+                padding: 18px 32px;
+                border: none;
+                border-radius: 10px;
+                vertical-align: middle;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}*/
+/* line 14, ../sass/screen.scss */
+html body section {
+  width: 100%;
+}
+/* line 17, ../sass/screen.scss */
+html body section#section-top {
+  background-image: url("skyscraper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  align: top;
+  clear: both;
+  position: relative;
+  overflow: hidden;
+}
+/* line 28, ../sass/screen.scss */
+html body section#section-top div#div-top {
+  background-color: rgba(196, 234, 255, 0.7);
+}
+/* line 30, ../sass/screen.scss */
+html body section#section-top div#div-top div#text-top {
+  position: relative;
+  width: 60%;
+  float: left;
+  color: #1f3e66;
+  font-size: 2rem;
+  height: auto;
+  display: inline-block;
+}
+/* line 38, ../sass/screen.scss */
+html body section#section-top div#div-top div#text-top div#text1 {
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 7% 0% 0% 27%;
+}
+/* line 43, ../sass/screen.scss */
+html body section#section-top div#div-top div#text-top div#text1 p#p1 {
+  color: #1f3e66;
+  font-family: Myriad Pro;
+  font-size: 3.8rem;
+  line-height: 120%;
+}
+/* line 50, ../sass/screen.scss */
+html body section#section-top div#div-top div#text-top div#text2 {
+  position: relative;
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 0.5% 0% 0% 27%;
+}
+/* line 56, ../sass/screen.scss */
+html body section#section-top div#div-top div#text-top div#text2 p#p2 {
+  color: #1f3e66;
+  font-family: Gothambook, Gotham;
+  font-size: 3rem;
+  line-height: 120%;
+}
+/* line 63, ../sass/screen.scss */
+html body section#section-top div#div-top div#text-top div#button1 {
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 4% 0% 10% 27%;
+}
+/* line 68, ../sass/screen.scss */
+html body section#section-top div#div-top div#text-top div#button1 button#btn-submit {
+  left: 10%;
+  background-color: #56bb42;
+  color: white;
+  font-family: Gothambook, Gotham;
+  font-size: 150%;
+  padding: 15px 45px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+/* line 81, ../sass/screen.scss */
+html body section#section-top div#div-top div#top-right {
+  width: 39%;
+  height: auto;
+  position: relative;
+  float: right;
+  padding: 5% 0% 8% 0%;
+}
+/* line 87, ../sass/screen.scss */
+html body section#section-top div#div-top div#top-right img#img-device {
+  margin-left: -80px;
+  display: inline-block;
+  width: 80%;
+  height: auto;
+}
+/* line 96, ../sass/screen.scss */
+html body section#section-mid {
+  position: relative;
+  background-color: #e4e4e4;
+  height: auto;
+  display: inline-block;
+  padding: 2% 0%;
+  margin: auto;
+}
+/* line 103, ../sass/screen.scss */
+html body section#section-mid div#div-mid1 {
+  display: inline-block;
+  width: 32%;
+  vertical-align: top;
+}
+/* line 107, ../sass/screen.scss */
+html body section#section-mid div#div-mid1 div#div-sec-left {
+  padding-left: 8%;
+  display: inline-block;
+}
+/* line 110, ../sass/screen.scss */
+html body section#section-mid div#div-mid1 div#div-sec-left img#img-wifi {
+  width: 100px;
+  height: auto;
+}
+/* line 114, ../sass/screen.scss */
+html body section#section-mid div#div-mid1 div#div-sec-left div#div-left-text {
+  padding: 1% 0%;
+  vertical-align: top;
+  display: inline-block;
+  width: 80%;
+  color: #1f3e66;
+  font-size: 1.3em;
+  text-align: left;
+}
+/* line 125, ../sass/screen.scss */
+html body section#section-mid div#div-mid2 {
+  display: inline-block;
+  width: 32%;
+  vertical-align: top;
+}
+/* line 129, ../sass/screen.scss */
+html body section#section-mid div#div-mid2 div#div-sec-center {
+  padding-left: 8%;
+  display: inline-block;
+}
+/* line 132, ../sass/screen.scss */
+html body section#section-mid div#div-mid2 div#div-sec-center img#img-connect {
+  width: 100px;
+  height: auto;
+}
+/* line 136, ../sass/screen.scss */
+html body section#section-mid div#div-mid2 div#div-sec-center div#div-center-text {
+  padding: 1% 0%;
+  vertical-align: top;
+  display: inline-block;
+  width: 80%;
+  color: #1f3e66;
+  font-size: 1.3em;
+  text-align: left;
+}
+/* line 147, ../sass/screen.scss */
+html body section#section-mid div#div-mid3 {
+  display: inline-block;
+  width: 32%;
+  vertical-align: top;
+}
+/* line 151, ../sass/screen.scss */
+html body section#section-mid div#div-mid3 div#div-sec-right {
+  padding-left: 8%;
+  display: inline-block;
+}
+/* line 154, ../sass/screen.scss */
+html body section#section-mid div#div-mid3 div#div-sec-right img#img-message {
+  width: 100px;
+  height: auto;
+}
+/* line 159, ../sass/screen.scss */
+html body section#section-mid div#div-mid3 div#div-right-text {
+  padding: 1% 0%;
+  vertical-align: top;
+  display: inline-block;
+  width: 80%;
+  color: #1f3e66;
+  font-size: 1.3em;
+  text-align: left;
+}
+/* line 170, ../sass/screen.scss */
+html body section#section-mid2 {
+  display: inline-block;
+  background-color: white;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+/* line 178, ../sass/screen.scss */
+html body section#section-mid2 div#major2 {
+  width: 100%;
+}
+/* line 180, ../sass/screen.scss */
+html body section#section-mid2 div#major2 div#div-sec-mid2-left {
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 30%;
+  height: auto;
+  padding: 1% 0%;
+  text-align: right;
+  vertical-align: middle;
+}
+/* line 189, ../sass/screen.scss */
+html body section#section-mid2 div#major2 div#div-sec-mid2-left img#iphone7 {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  padding-right: 2%;
+  max-width: 70%;
+  height: auto;
+  margin: auto;
+}
+/* line 199, ../sass/screen.scss */
+html body section#section-mid2 div#major2 div#div-sec-mid2-right {
+  float: right;
+  width: 69%;
+  height: auto;
+  position: relative;
+  vertical-align: middle;
+}
+/* line 205, ../sass/screen.scss */
+html body section#section-mid2 div#major2 div#div-sec-mid2-right div#b3 {
+  height: auto;
+  position: relative;
+}
+/* line 208, ../sass/screen.scss */
+html body section#section-mid2 div#major2 div#div-sec-mid2-right div#b3 div#b1 {
+  padding-top: 3%;
+  vertical-align: middle;
+}
+/* line 211, ../sass/screen.scss */
+html body section#section-mid2 div#major2 div#div-sec-mid2-right div#b3 div#b1 div#b11 {
+  vertical-align: middle;
+  width: 75%;
+  padding: 1% 0%;
+}
+/* line 215, ../sass/screen.scss */
+html body section#section-mid2 div#major2 div#div-sec-mid2-right div#b3 div#b1 div#b11 p#p3 {
+  vertical-align: middle;
+  font-family: Myriad Pro;
+  font-size: 2.3em;
+  color: #1f3e66;
+}
+/* line 222, ../sass/screen.scss */
+html body section#section-mid2 div#major2 div#div-sec-mid2-right div#b3 div#b1 div#b12 {
+  vertical-align: middle;
+  width: 75%;
+  padding: 1% 0%;
+}
+/* line 226, ../sass/screen.scss */
+html body section#section-mid2 div#major2 div#div-sec-mid2-right div#b3 div#b1 div#b12 p#p4 {
+  vertical-align: middle;
+  font-family: Gothambook, Gotham;
+  font-size: 1.3em;
+  color: #1f3e66;
+  line-height: 120%;
+}
+/* line 235, ../sass/screen.scss */
+html body section#section-mid2 div#major2 div#div-sec-mid2-right div#b3 div#b2 {
+  vertical-align: middle;
+  padding: 2% 0%;
+  width: 75%;
+}
+/* line 239, ../sass/screen.scss */
+html body section#section-mid2 div#major2 div#div-sec-mid2-right div#b3 div#b2 button#btn-submit2 {
+  display: inline-block;
+  background-color: #56bb42;
+  color: white;
+  font-family: Gothambook, Gotham;
+  font-size: 130%;
+  padding: 18px 32px;
+  border: none;
+  border-radius: 10px;
+}
+/* line 254, ../sass/screen.scss */
+html body section#section-bottom {
+  padding-top: 20px;
+  display: inline-block;
+  clear: both;
+  background-color: white;
+  align: top;
+  position: relative;
+  height: auto;
+}
+/* line 262, ../sass/screen.scss */
+html body section#section-bottom div#bottom {
+  height: auto;
+}
+/* line 264, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  float: left;
+}
+/* line 270, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left header#header-mid {
+  clear: both;
+  display: inline-block;
+  position: relative;
+  background-color: white;
+  font-family: Myriad Pro;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  text-align: center;
+  color: #1f3e66;
+  font-size: 220%;
+  width: 80%;
+  height: auto;
+  vertical-align: middle;
+}
+/* line 285, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#phone {
+  float: left;
+  position: relative;
+  width: 37%;
+  height: auto;
+  display: inline-block;
+  margin: auto;
+  vertical-align: middle;
+  text-align: right;
+}
+/* line 294, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#phone img#img-phone {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 55%;
+  height: auto;
+  margin: auto;
+}
+/* line 303, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone {
+  float: right;
+  position: relative;
+  width: 60%;
+  height: auto;
+  vertical-align: middle;
+  padding: 1% 0%;
+}
+/* line 310, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#a {
+  display: inline-block;
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 2% 0% 3% 0%;
+  vertical-align: middle;
+}
+/* line 317, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#a div#wifi2 {
+  dislay: inline-block;
+  position: relative;
+  height: auto;
+  width: 100%;
+  vertical-align: middle;
+}
+/* line 323, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#a div#wifi2 img#img-wifi2 {
+  dislay: inline-block;
+  position: relative;
+  width: 6rem;
+  z-index: 2;
+  vertical-align: middle;
+}
+/* line 331, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#a div#div-bot-left-text {
+  padding: 0% 1% 0% 0%;
+  width: 70%;
+  vertical-align: middle;
+}
+/* line 335, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#a div#div-bot-left-text p#pp1 {
+  vertical-align: middle;
+  width: 60%;
+  padding: 2% 0%;
+  position: absolute;
+  top: 27px;
+  left: 3%;
+  padding-left: 90px;
+  display: inline-block;
+  background-color: #e4e4e4;
+  font-family: Gothambook, Gotham;
+  color: #1f3e66;
+  font-size: 95%;
+  z-index: 1;
+}
+/* line 352, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#b {
+  display: inline-block;
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 0% 0% 3% 0%;
+  vertical-align: middle;
+}
+/* line 359, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#b div#connect2 {
+  dislay: inline-block;
+  position: relative;
+  height: auto;
+  width: 100%;
+  vertical-align: middle;
+}
+/* line 365, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#b div#connect2 img#img-connect2 {
+  dislay: inline-block;
+  position: relative;
+  width: 6rem;
+  z-index: 2;
+  vertical-align: middle;
+}
+/* line 373, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#b div#div-bot-center-text {
+  padding: 0% 1% 0% 0%;
+  width: 70%;
+  vertical-align: middle;
+}
+/* line 377, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#b div#div-bot-center-text p#pp2 {
+  vertical-align: middle;
+  width: 60%;
+  padding: 2% 0%;
+  position: absolute;
+  top: 18px;
+  left: 3%;
+  padding-left: 90px;
+  display: inline-block;
+  background-color: #e4e4e4;
+  font-family: Gothambook, Gotham;
+  color: #1f3e66;
+  font-size: 95%;
+  z-index: 1;
+}
+/* line 394, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#c {
+  display: inline-block;
+  position: relative;
+  height: auto;
+  width: 100%;
+  vertical-align: middle;
+}
+/* line 400, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#c div#message2 {
+  dislay: inline-block;
+  position: relative;
+  height: auto;
+  width: 20%;
+  vertical-align: middle;
+}
+/* line 406, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#c div#message2 img#img-message2 {
+  dislay: inline-block;
+  position: relative;
+  width: 4em;
+  z-index: 2;
+  vertical-align: middle;
+}
+/* line 414, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#c div#div-bot-right-text {
+  padding: 0% 1% 0% 0%;
+  width: 80%;
+  vertical-align: middle;
+  display: inline-block;
+}
+/* line 419, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#c div#div-bot-right-text p#pp3 {
+  vertical-align: middle;
+  display: inline-block;
+  width: 60%;
+  padding: 2% 0%;
+  position: absolute;
+  top: 18px;
+  left: 3%;
+  padding-left: 90px;
+  background-color: #e4e4e4;
+  font-family: Gothambook, Gotham;
+  color: #1f3e66;
+  font-size: 95%;
+  z-index: 1;
+  vertical-align: middle;
+}
+/* line 439, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right {
+  float: right;
+  display: inline-block;
+  width: 40%;
+  position: relative;
+  height: auto;
+  vertical-align: middle;
+}
+/* line 446, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right button.btn-tab {
+  vertical-align: middle;
+  font-size: 100%;
+  font-family: Gothambook, Gotham;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* line 454, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right button#btn-tab2 {
+  vertical-align: middle;
+  background-color: #1f3e66;
+  border-top-right-radius: 10px;
+  width: 50%;
+  height: auto;
+}
+/* line 461, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right button#btn-tab1 {
+  vertical-align: middle;
+  background-color: #f8af46;
+  width: 50%;
+  height: auto;
+}
+/* line 467, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right div.tabs {
+  overflow: hidden;
+  background-color: #1f3e66;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 80%;
+}
+/* line 474, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right div.tabs button {
+  vertical-align: middle;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 25px 50px;
+  transition: 0.3s;
+}
+/* line 484, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right div.tabs button.active {
+  vertical-align: middle;
+  background-color: red;
+}
+/* line 488, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 {
+  display: inline-block;
+  background-color: #1f3e66;
+  width: 80%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-family: Gothambook, Gotham;
+  vertical-align: middle;
+}
+/* line 496, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 div#txt1 {
+  height: 80px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 3% 0%;
+}
+/* line 501, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 div#txt1 input#txtbox1 {
+  background-color: #e5e5e5;
+  width: 70%;
+  height: 40%;
+  color: #1f3e66;
+  border: 1px solid #1f3e66;
+  border-radius: 10px;
+  font-size: 120%;
+  padding: 3%;
+  font-family: Gothambook, Gotham;
+  vertical-align: middle;
+}
+/* line 513, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 div#txt1 ::-webkit-input-placeholder {
+  color: #1f3e66;
+}
+/* line 517, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 div#txt2 {
+  height: 80px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 3% 0%;
+}
+/* line 522, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 div#txt2 input#txtbox2 {
+  background-color: #e5e5e5;
+  width: 70%;
+  height: 40%;
+  color: #1f3e66;
+  border: 1px solid #1f3e66;
+  border-radius: 10px;
+  font-size: 120%;
+  padding: 3%;
+  font-family: Gothambook, Gotham;
+  vertical-align: middle;
+}
+/* line 534, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 div#txt2 ::-webkit-input-placeholder {
+  color: #1f3e66;
+}
+/* line 538, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 div#btn3 {
+  height: auto;
+  vertical-align: middle;
+  padding: 3% 0%;
+  text-align: left;
+  padding-left: 45%;
+  padding-bottom: 7%;
+}
+/* line 545, ../sass/screen.scss */
+html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 div#btn3 button#btn-submit3 {
+  background-color: #56bb42;
+  color: white;
+  font-family: Gothambook, Gotham;
+  font-size: 130%;
+  font-weight: bold;
+  padding: 18px 32px;
+  border: none;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 1810px) {
+  /* line 4, ../sass/_responsive.scss */
+  html body section#section-mid {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+  }
+  /* line 8, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid1 {
+    width: 33%;
+    text-align: center;
+    vertical-align: middle;
+  }
+  /* line 12, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid1 div#div-sec-left {
+    padding: 0%;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+  }
+  /* line 17, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid1 div#div-sec-left img#img-wifi {
+    vertical-align: middle;
+    width: 100px;
+    height: auto;
+  }
+  /* line 22, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid1 div#div-sec-left div#div-left-text {
+    vertical-align: middle;
+    width: 80%;
+    padding: 1% 0%;
+    display: inline-block;
+    text-align: left;
+  }
+  /* line 31, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid2 {
+    width: 33%;
+    text-align: center;
+    vertical-align: middle;
+  }
+  /* line 35, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid2 div#div-sec-center {
+    padding: 0%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+  }
+  /* line 40, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid2 div#div-sec-center img#img-connect {
+    vertical-align: middle;
+    width: 100px;
+    height: auto;
+  }
+  /* line 45, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid2 div#div-sec-center div#div-center-text {
+    vertical-align: middle;
+    width: 80%;
+    padding: 1% 0%;
+    display: inline-block;
+    text-align: left;
+  }
+  /* line 54, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid3 {
+    width: 33%;
+    text-align: center;
+  }
+  /* line 57, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid3 div#div-sec-right {
+    padding: 0%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+  }
+  /* line 62, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid3 div#div-sec-right img#img-message {
+    vertical-align: middle;
+    width: 100px;
+    height: auto;
+  }
+  /* line 68, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid3 div#div-right-text {
+    vertical-align: middle;
+    width: 80%;
+    padding: 1% 0%;
+    display: inline-block;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 1665px) {
+  /* line 85, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid1 {
+    padding: 0%;
+  }
+  /* line 87, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid1 div#div-sec-left {
+    text-align: left;
+  }
+  /* line 89, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid1 div#div-sec-left div#div-left-text {
+    width: 75%;
+    font-size: 1.1em;
+  }
+  /* line 95, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid2 {
+    padding: 0%;
+  }
+  /* line 97, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid2 div#div-sec-center {
+    text-align: left;
+  }
+  /* line 99, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid2 div#div-sec-center div#div-center-text {
+    width: 75%;
+    font-size: 1.1em;
+  }
+  /* line 105, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid3 {
+    padding: 0%;
+  }
+  /* line 107, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid3 div#div-sec-right {
+    text-align: left;
+  }
+  /* line 110, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid3 div#div-right-text {
+    width: 75%;
+    font-size: 1.1em;
+  }
+}
+@media only screen and (max-width: 1610px) {
+  /* line 123, ../sass/_responsive.scss */
+  html body section#section-bottom {
+    padding-top: 10px;
+    height: auto;
+    width: 100%;
+  }
+  /* line 127, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom {
+    height: auto;
+    width: 100%;
+  }
+  /* line 130, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left {
+    width: 55%;
+  }
+  /* line 132, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#phone {
+    width: 33%;
+    vertical-align: middle;
+    text-align: right;
+    padding: 0%;
+  }
+  /* line 137, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#phone img#img-phone {
+    vertical-align: middle;
+    width: 70%;
+    height: auto;
+    margin: auto;
+  }
+  /* line 144, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone {
+    width: 65%;
+  }
+  /* line 146, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#a {
+    height: auto;
+    width: 80%;
+  }
+  /* line 149, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#a div#div-bot-left-text {
+    width: 90%;
+  }
+  /* line 151, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#a div#div-bot-left-text p#pp1 {
+    width: 90%;
+  }
+  /* line 156, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#b {
+    height: auto;
+    width: 80%;
+  }
+  /* line 159, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#b div#div-bot-center-text {
+    width: 90%;
+  }
+  /* line 161, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#b div#div-bot-center-text p#pp2 {
+    width: 90%;
+  }
+  /* line 166, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#c {
+    height: auto;
+    width: 80%;
+  }
+  /* line 169, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#c div#div-bot-right-text {
+    width: 90%;
+  }
+  /* line 171, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#c div#div-bot-right-text p#pp3 {
+    width: 90%;
+  }
+  /* line 178, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-right {
+    width: 40%;
+    padding: 2% 0%;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  /* line 191, ../sass/_responsive.scss */
+  html body section#section-mid {
+    width: 100%;
+  }
+  /* line 193, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid1 {
+    width: 32%;
+    padding: 0%;
+  }
+  /* line 196, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid1 div#div-sec-left {
+    text-align: left;
+  }
+  /* line 198, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid1 div#div-sec-left img#img-wifi {
+    width: 90px;
+  }
+  /* line 201, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid1 div#div-sec-left div#div-left-text {
+    width: 73%;
+    font-size: .95em;
+  }
+  /* line 207, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid2 {
+    width: 32%;
+    padding: 0%;
+  }
+  /* line 210, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid2 div#div-sec-center {
+    text-align: left;
+  }
+  /* line 212, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid2 div#div-sec-center img#img-connect {
+    width: 90px;
+  }
+  /* line 215, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid2 div#div-sec-center div#div-center-text {
+    width: 73%;
+    font-size: .95em;
+  }
+  /* line 221, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid3 {
+    width: 32%;
+    padding: 0%;
+  }
+  /* line 224, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid3 div#div-sec-right {
+    text-align: left;
+  }
+  /* line 226, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid3 div#div-sec-right img#img-message {
+    width: 90px;
+  }
+  /* line 230, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid3 div#div-right-text {
+    width: 73%;
+    font-size: .95em;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  /* line 244, ../sass/_responsive.scss */
+  html body header div#div-logo {
+    padding: 0% 20%;
+    width: 60%;
+    text-align: center;
+  }
+  /* line 248, ../sass/_responsive.scss */
+  html body header div#div-logo img#img-logo {
+    width: 12em;
+  }
+  /* line 252, ../sass/_responsive.scss */
+  html body header div#div3 {
+    width: 100%;
+    vertical-align: middle;
+  }
+  /* line 255, ../sass/_responsive.scss */
+  html body header div#div3 div#div1 {
+    width: 50%;
+    vertical-align: middle;
+  }
+  /* line 258, ../sass/_responsive.scss */
+  html body header div#div3 div#div1 nav {
+    vertical-align: middle;
+    padding: 1% 0%;
+    width: 100%;
+    font-size: 25px;
+  }
+  /* line 263, ../sass/_responsive.scss */
+  html body header div#div3 div#div1 nav a#a1 {
+    vertical-align: middle;
+    text-align: left;
+  }
+  /* line 267, ../sass/_responsive.scss */
+  html body header div#div3 div#div1 nav a#a2 {
+    vertical-align: middle;
+    text-align: left;
+  }
+  /* line 271, ../sass/_responsive.scss */
+  html body header div#div3 div#div1 nav a#a3 {
+    vertical-align: middle;
+    text-align: left;
+  }
+  /* line 277, ../sass/_responsive.scss */
+  html body header div#div3 div#div2 {
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    padding: 0;
+    vertical-align: middle;
+    text-align: left;
+  }
+  /* line 284, ../sass/_responsive.scss */
+  html body header div#div3 div#div2 input#search-bar {
+    vertical-align: middle;
+    width: 80%;
+    height: 30px;
+    font-size: 1em;
+    padding-left: 9%;
+  }
+  /* line 291, ../sass/_responsive.scss */
+  html body header div#div3 div#div2 img#search {
+    vertical-align: middle;
+    position: absolute;
+    top: 7px;
+    left: 2%;
+    width: 20px;
+    z-index: 2;
+  }
+  /* line 302, ../sass/_responsive.scss */
+  html body section#section-top {
+    background-blend-mode: screen;
+  }
+  /* line 304, ../sass/_responsive.scss */
+  html body section#section-top div#text-top {
+    width: 100%;
+  }
+  /* line 306, ../sass/_responsive.scss */
+  html body section#section-top div#text-top div#text1 {
+    padding: 1% 8%;
+  }
+  /* line 308, ../sass/_responsive.scss */
+  html body section#section-top div#text-top div#text1 p#p1 {
+    padding-top: 2%;
+    font-size: 3.5rem;
+  }
+  /* line 313, ../sass/_responsive.scss */
+  html body section#section-top div#text-top div#text2 {
+    padding: 1% 8%;
+  }
+  /* line 315, ../sass/_responsive.scss */
+  html body section#section-top div#text-top div#text2 p#p2 {
+    font-size: 2.5rem;
+  }
+  /* line 319, ../sass/_responsive.scss */
+  html body section#section-top div#text-top div#button1 {
+    padding: 2% 8%;
+  }
+  /* line 321, ../sass/_responsive.scss */
+  html body section#section-top div#text-top div#button1 button#btn-submit {
+    font-size: 100%;
+  }
+  /* line 326, ../sass/_responsive.scss */
+  html body section#section-top div#top-right {
+    display: none;
+  }
+  /* line 330, ../sass/_responsive.scss */
+  html body section#section-mid {
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+  }
+  /* line 334, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid1 {
+    width: 32%;
+    text-align: center;
+  }
+  /* line 337, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid1 div#div-sec-left {
+    padding: 0%;
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 341, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid1 div#div-sec-left img#img-wifi {
+    width: 90px;
+    height: auto;
+  }
+  /* line 345, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid1 div#div-sec-left div#div-left-text {
+    width: 100%;
+    padding: 1% 0%;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 22px;
+    text-align: left;
+  }
+  /* line 355, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid2 {
+    width: 33%;
+    text-align: center;
+  }
+  /* line 358, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid2 div#div-sec-center {
+    padding: 0%;
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 362, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid2 div#div-sec-center img#img-connect {
+    width: 90px;
+    height: auto;
+  }
+  /* line 366, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid2 div#div-sec-center div#div-center-text {
+    width: 100%;
+    padding: 1% 0%;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 22px;
+    text-align: left;
+  }
+  /* line 376, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid3 {
+    width: 32%;
+    text-align: center;
+  }
+  /* line 379, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid3 div#div-sec-right {
+    padding: 0%;
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 383, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid3 div#div-sec-right img#img-message {
+    width: 90px;
+    height: auto;
+  }
+  /* line 387, ../sass/_responsive.scss */
+  html body section#section-mid div#div-mid3 div#div-sec-right div#div-right-text {
+    width: 100%;
+    padding: 1% 0%;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 22px;
+    text-align: left;
+  }
+  /* line 400, ../sass/_responsive.scss */
+  html body section#section-mid2 div#major2 div#div-sec-mid2-left {
+    width: 40%;
+    height: auto;
+    padding: 0%;
+  }
+  /* line 404, ../sass/_responsive.scss */
+  html body section#section-mid2 div#major2 div#div-sec-mid2-left img#iphone7 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    vertical-align: middle;
+    width: 150%;
+  }
+  /* line 412, ../sass/_responsive.scss */
+  html body section#section-mid2 div#major2 div#div-sec-mid2-right {
+    width: 58%;
+  }
+  /* line 414, ../sass/_responsive.scss */
+  html body section#section-mid2 div#major2 div#div-sec-mid2-right div#b3 {
+    height: auto;
+  }
+  /* line 417, ../sass/_responsive.scss */
+  html body section#section-mid2 div#major2 div#div-sec-mid2-right div#b3 div#b1 div#b11 {
+    width: 100%;
+  }
+  /* line 419, ../sass/_responsive.scss */
+  html body section#section-mid2 div#major2 div#div-sec-mid2-right div#b3 div#b1 div#b11 p#p3 {
+    font-size: 1.5em;
+  }
+  /* line 423, ../sass/_responsive.scss */
+  html body section#section-mid2 div#major2 div#div-sec-mid2-right div#b3 div#b1 div#b12 {
+    width: 100%;
+  }
+  /* line 425, ../sass/_responsive.scss */
+  html body section#section-mid2 div#major2 div#div-sec-mid2-right div#b3 div#b1 div#b12 p#p4 {
+    font-size: .85em;
+  }
+  /* line 430, ../sass/_responsive.scss */
+  html body section#section-mid2 div#major2 div#div-sec-mid2-right div#b3 div#b2 {
+    width: 100%;
+  }
+  /* line 432, ../sass/_responsive.scss */
+  html body section#section-mid2 div#major2 div#div-sec-mid2-right div#b3 div#b2 button#btn-submit2 {
+    font-size: 100%;
+    padding: 18px 32px;
+    border: none;
+    border-radius: 10px;
+  }
+  /* line 443, ../sass/_responsive.scss */
+  html body section#section-bottom {
+    padding-top: 10px;
+    height: auto;
+    width: 100%;
+  }
+  /* line 447, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom {
+    height: auto;
+    width: 100%;
+  }
+  /* line 450, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left {
+    width: 60%;
+  }
+  /* line 452, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left header#header-mid {
+    padding: 1% 0%;
+    text-align: center;
+    font-size: 1.6em;
+    width: 100%;
+  }
+  /* line 458, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#phone {
+    width: 33%;
+    vertical-align: middle;
+    text-align: right;
+    padding: 0%;
+  }
+  /* line 463, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#phone img#img-phone {
+    vertical-align: middle;
+    width: 70%;
+    height: auto;
+    margin: auto;
+  }
+  /* line 470, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone {
+    width: 65%;
+  }
+  /* line 472, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#a {
+    height: auto;
+    width: 100%;
+  }
+  /* line 475, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#a div#wifi2 {
+    height: auto;
+    width: 20%;
+    vertical-align: middle;
+  }
+  /* line 479, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#a div#wifi2 img#img-wifi2 {
+    width: 3em;
+    vertical-align: middle;
+  }
+  /* line 484, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#a div#div-bot-left-text {
+    padding: 0% 1% 0% 0%;
+    width: 100%;
+  }
+  /* line 487, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#a div#div-bot-left-text p#pp1 {
+    width: 70%;
+    padding: 2% 0%;
+    top: 18px;
+    left: 4%;
+    padding-left: 70px;
+    font-size: 80%;
+  }
+  /* line 497, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#b {
+    height: auto;
+    width: 100%;
+  }
+  /* line 500, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#b div#connect2 {
+    height: auto;
+    width: 20%;
+    vertical-align: middle;
+  }
+  /* line 504, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#b div#connect2 img#img-connect2 {
+    width: 3em;
+    vertical-align: middle;
+  }
+  /* line 509, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#b div#div-bot-center-text {
+    padding: 0% 1% 0% 0%;
+    width: 80%;
+  }
+  /* line 512, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#b div#div-bot-center-text p#pp2 {
+    width: 70%;
+    padding: 2% 0%;
+    top: 12px;
+    left: 4%;
+    padding-left: 70px;
+    font-size: 80%;
+  }
+  /* line 522, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#c {
+    height: auto;
+    width: 100%;
+  }
+  /* line 525, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#c div#message2 {
+    height: auto;
+    width: 20%;
+    vertical-align: middle;
+  }
+  /* line 529, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#c div#message2 img#img-message2 {
+    width: 3em;
+    vertical-align: middle;
+  }
+  /* line 534, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#c div#div-bot-right-text {
+    padding: 0% 1% 0% 0%;
+    width: 80%;
+  }
+  /* line 537, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-left div#right-phone div#c div#div-bot-right-text p#pp3 {
+    width: 70%;
+    padding: 2% 0%;
+    top: 12px;
+    left: 4%;
+    padding-left: 70px;
+    font-size: 80%;
+  }
+  /* line 549, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-right {
+    width: 38%;
+    height: auto;
+  }
+  /* line 552, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-right button.btn-tab {
+    font-size: 100%;
+  }
+  /* line 555, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-right button#btn-tab2 {
+    width: 50%;
+    height: auto;
+  }
+  /* line 559, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-right button#btn-tab1 {
+    width: 50%;
+    height: auto;
+  }
+  /* line 563, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-right div.tabs {
+    overflow: hidden;
+    width: 90%;
+  }
+  /* line 567, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-right div.tabs button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 20px;
+    transition: 0.3s;
+    font-size: 20px;
+  }
+  /* line 577, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 {
+    width: 90%;
+    vertical-align: middle;
+  }
+  /* line 580, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 div#txt1 {
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 2% 0%;
+  }
+  /* line 585, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 div#txt1 input#txtbox1 {
+    width: 80%;
+    height: 50%;
+    font-size: 80%;
+  }
+  /* line 591, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 div#txt2 {
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 2% 0%;
+  }
+  /* line 596, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 div#txt2 input#txtbox2 {
+    width: 80%;
+    height: 50%;
+    font-size: 80%;
+    vertical-align: middle;
+  }
+  /* line 603, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 div#btn3 {
+    height: auto;
+    padding: 2% 0% 2% 45%;
+  }
+  /* line 606, ../sass/_responsive.scss */
+  html body section#section-bottom div#bottom div#div-sec-bot-right div#tab1 div#btn3 button#btn-submit3 {
+    font-size: 70%;
+    font-weight: bold;
+    padding: 18px 28px;
+    border: none;
+    border-radius: 10px;
+  }
+}
